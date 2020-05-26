@@ -1,9 +1,9 @@
-## Q: What's the difference between Mould and  the traditional UI builder using drag-and-drop ?
+## **Q: What's the difference between Mould and  the traditional UI builder using drag-and-drop ?**
 
 After a simple analysis, we distinguished the functional differences between **Mould** and other tools, **VB** and **Storyboard**
 
 
-### VB
+### **VB**
 
 **VB** represents this kind of tool: 
 >  *Developer redevelops the generated GUI code from the tool.*
@@ -12,7 +12,7 @@ The generated code is unable to be imported into the tool for secondary design p
 
 **Mould** will completely separate the GUI and the program. You can modify the GUI at any time without worrying about unexpected problems in the program.
 
-### Storyboard
+### **Storyboard**
 
 The first thing to say is that  the author of **Mould** hasn’t engaged in iOS development, but only briefly studied the API.
 
@@ -30,32 +30,32 @@ As for another technology giant, Google also launched Jetpack Compose at about t
 
 Back to **Mould**, **Mould** is a higher-level framework of the React paradigm, perfectly retaining the efficiency and power of React.
 
-## Q: How to achieve cross-end ?
+## **Q: How to achieve cross-end ?**
 
 **Mould** is only focus on GUI building. The approach **Mould** achieve cross-end is like GraphQL. Each end has its own runtime, which excute the Schema following **Mould**. Therefore, each end can use its own lang(or ecology), and the uniqueness of each end is also preserved.
 
 Compared to Flutter, **Mould** not only can achieve a high consistency at each end of GUI, but also can smoothly integrate the App on each end to become part of the existing project.
 
-## Q: What is the advantage that does the drag-n-drop tool is better than the handwritten in efficiency？
+## **Q: What is the advantage that does the drag-n-drop tool is better than the handwritten in efficiency？**
 
 - Reduce difficulty
 - More User-friendly.
 - Adjust stepless.
 - Immediate feedback
 
-## Q: Is there any flexibility limit? Can Mould generate complex applications beyond simple static pages ?
+## **Q: Is there any flexibility limit? Can Mould generate complex applications beyond simple static pages ?**
 
 In comparison with traditional tool for page building, **Mould** is more flexible without giving up anything about flexibility. Its power is consistent with React.What React can do, **Mould** also can do.
 
 Noteworthy, **Mould** is implemented using React. So, **Mould** is able to do self-bootstrapping.
 
-## Q: How to transform designers' work into a running interface？
+## **Q: How to transform designers' work into a running interface？**
 
 Regardless of the design tools (Figma and Sketch), the files they export can be regarded as groups of vector Config and non-vector Binary Assets.
 
 **Mould** is the same.
 
-## Q: Is there a lack of expressiveness on design ?
+## **Q: Is there a lack of expressiveness on design ?**
 
 Currently, the editor of **Mould** is based on DOM, and its power is rely on the expressive power of DOM as the infrastructure of GUI.
 And because the UI that **Mould** equipped now only runs on the DOM, **Mould** can be self-sufficient.
@@ -63,7 +63,7 @@ And because the UI that **Mould** equipped now only runs on the DOM, **Mould** c
 
 In the future, as more ends are handled, we may find a way between the intersection and union of expressive forces at each end. At present, we prefer take union, so that expression power of **Mould** may be "overflowed" rather than missing relative to a single end. Graceful downgrade would be a good idea to solve the "overflow" problem.
 
-## Q: How the exported result through design fulfil the requirements of App ? Does it increase the difficulty of the designers' work ?
+## **Q: How the exported result through design fulfil the requirements of App ? Does it increase the difficulty of the designers' work ?**
 Answer this Q from the following 3 dimensions.
 - Style.
 - Layout.
@@ -88,7 +88,7 @@ The designer's current work flow ends with "eye check", which means that as long
 For example, a front-end engineer received an "expression" image for a paragraph of text that the length of the paragraph does not matter, just look good. However, the paragraph runs in real world may be many situations need to concerned, e.g. too long or too short, break the line, display ellipsis in trucated part , and so on.
 As for this part of information, it would not be shown in the design draft. And the one of the important point **Mould** want to carry out is that the designer is fully responsible for the entire visual interaction effect in handling design process.
 
-### Conclusion
+### **Conclusion**
 
 It seems that designers' job go much harder, but let us think about the current scenario, 
 
