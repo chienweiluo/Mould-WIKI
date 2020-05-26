@@ -30,11 +30,15 @@ As for another technology giant, Google also launched Jetpack Compose at about t
 
 Back to **Mould**, **Mould** is a higher-level framework of the React paradigm, perfectly retaining the efficiency and power of React.
 
+<br/>
+
 ## **Q: How to achieve cross-end ?**
 
 **Mould** is only focus on GUI building. The approach **Mould** achieve cross-end is like GraphQL. Each end has its own runtime, which excute the Schema following **Mould**. Therefore, each end can use its own lang(or ecology), and the uniqueness of each end is also preserved.
 
 Compared to Flutter, **Mould** not only can achieve a high consistency at each end of GUI, but also can smoothly integrate the App on each end to become part of the existing project.
+
+<br/>
 
 ## **Q: What is the advantage that does the drag-n-drop tool is better than the handwritten in efficiency？**
 
@@ -43,17 +47,23 @@ Compared to Flutter, **Mould** not only can achieve a high consistency at each e
 - Adjust stepless.
 - Immediate feedback
 
+<br/>
+
 ## **Q: Is there any flexibility limit? Can Mould generate complex applications beyond simple static pages ?**
 
 In comparison with traditional tool for page building, **Mould** is more flexible without giving up anything about flexibility. Its power is consistent with React.What React can do, **Mould** also can do.
 
 Noteworthy, **Mould** is implemented using React. So, **Mould** is able to do self-bootstrapping.
 
+<br/>
+
 ## **Q: How to transform designers' work into a running interface？**
 
 Regardless of the design tools (Figma and Sketch), the files they export can be regarded as groups of vector Config and non-vector Binary Assets.
 
 **Mould** is the same.
+
+<br/>
 
 ## **Q: Is there a lack of expressiveness on design ?**
 
@@ -62,6 +72,8 @@ And because the UI that **Mould** equipped now only runs on the DOM, **Mould** c
 
 
 In the future, as more ends are handled, we may find a way between the intersection and union of expressive forces at each end. At present, we prefer take union, so that expression power of **Mould** may be "overflowed" rather than missing relative to a single end. Graceful downgrade would be a good idea to solve the "overflow" problem.
+
+<br/>
 
 ## **Q: How the exported result through design fulfil the requirements of App ? Does it increase the difficulty of the designers' work ?**
 Answer this Q from the following 3 dimensions.
